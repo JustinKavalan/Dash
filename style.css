@@ -1,0 +1,64 @@
+
+  body {
+    font-family:Helvetica;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 0em;
+    background-position:fixed;
+  }
+  #profile {
+    height: 8em;
+    width: 8em;
+    border-radius: 100%;
+    border-style: none;
+    z-index: 1;
+    border: .25em solid orange;
+    margin-left: 1em;
+    margin-top: 1em;
+    
+  }
+  #dashlogo {
+    position:fixed;
+    border: none;
+    left: 1em;
+    bottom: 1em;
+   
+    
+    z-index: 0;
+  }
+  .welcome {
+    padding-left: 11.5em;
+    margin-top: -9em;
+    width: inherit;
+    color: white;
+    
+  }    
+  #box {
+    width: 33em;
+    height: 100%;
+    top: 0;
+    opacity: 0.75;
+    background-color: black;
+    position: fixed;
+    box-shadow: 0em 3em 5em 1em black;
+    z-index: -1;
+}
+  .tool {
+    margin-top: 7.5em;
+    margin-left: 1em;
+    color: white;
+    width: 31em;
+    font-size: 12pt;
+  }
+  #content {
+    margin-left: .5em;
+    width: 32em;
+  }
+  .twitter-timeline {
+    position: absolute;
+    transform: translate(34em,-72.5em);
+  }
+  .tumblr-post {
+    
+  }

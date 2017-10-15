@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Social Secretary</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <script>tinymce.init({ selector:'textarea' });</script>
+  
+   <script>
+      window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1051830201529918',
+        xfbml      : true,
+        version    : 'v2.5'
+      });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+    window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </head>
+  
+  
+  
+  <body>
+   
+    <div id="dashlogo">
+      <img src="smalldash.png">
+    </div>
+      <img id="profile" src="profilepic.jpeg" />
+    </div>
+       
+    <div id="box">
+            
+      </div>
+      <div class="welcome">
+      <h2 id="welcome">Doge McDingleberry</h2>
+      <a href="main.html">
+      <i class="material-icons">settings</i>
+      </a>
+      <br>
+      <i class="material-icons">add_circle</i>
+      </div>
+      <div id="tool">
+      <p class="tool"><p/>
+      </div>
+    
+     
+     <div id="content">
+	   <form>
+	 <textarea>...</textarea>
+		<br>
+		<input type="submit" value="Publish">
+	</form>
+	
+	<a href="scrape.js" type="text/javascript"></a>
+	
+<div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/vaURBKAqsQiDIje_tSJbjw/4070747898" data-did="6be47f2bb077e8b1439c489beece183050b460c4">
+  
+<a href="http://fuckyeahfluiddynamics.tumblr.com/post/4070747898/the-sun-is-a-wild-place-fluid-dynamically-the">http://fuckyeahfluiddynamics.tumblr.com/post/4070747898/the-sun-is-a-wild-place-fluid-dynamically-the</a>
+</div>
+<script async src="https://secure.assets.tumblr.com/post.js"></script>
+
+
+</div>
+      <a class="twitter-timeline"
+  		data-widget-id="600720083413962752"
+  		href="https://twitter.com/makeschool"
+			width="300"
+			height="300">
+			</a>
+			<div id="fb_posts"></div>
+      <script src="jquery-2.2.1.min.js" type="text/javascript"></script>
+      <!--<script src="scrape.js" type="text/javascript"></script>-->
+  </body>
+</html>
